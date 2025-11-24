@@ -1,0 +1,3 @@
+id,product,grade,IsOperational,installationDate
+line1,Vulcanized rubber,A+,TRUE,2018-5-20T14:30:00.000Z
+line2,Natural rubber,B,FALSE,2018-5-20T14:35:00.000Z

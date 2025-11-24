@@ -1,0 +1,3 @@
+﻿productionLine,sensorId,description,sensorType
+line1,eui-a81758fffe08a8e7,Entry temperature,Contact temperature sensors
+line1,eui-a81758fffe08a90f,Exit temperature,Contact temperature sensors
