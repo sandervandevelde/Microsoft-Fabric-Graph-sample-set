@@ -1,3 +1,3 @@
-﻿productionLine,sensorId,description,sensorType
-line1,eui-a81758fffe08a8e7,Entry temperature,Contact temperature sensors
-line1,eui-a81758fffe08a90f,Exit temperature,Contact temperature sensors
+﻿productionLine,sensorId,description,position,sensorType
+line1,eui-a81758fffe08a8e7,LoRaWAN ambient temperature/humidity sensor,Entry temperature,Elsys ERS Eco
+line1,eui-a81758fffe08a90f,LoRaWAN ambient temperature/humidity sensor,Exit temperature,Elsys ERS Eco
