@@ -1,0 +1,3 @@
+﻿technician,sensorId,description,sensorType
+T004,eui-2cf7f1c073100393,LoraWan GPS tracker,SenseCAP T1000
+T006,eui-2cf7f1c053200054,LoraWan GPS tracker,SenseCAP T1000
