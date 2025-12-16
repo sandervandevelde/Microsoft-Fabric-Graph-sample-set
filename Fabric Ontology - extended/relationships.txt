@@ -4,8 +4,8 @@ ExecutedFor - Workorder -> Production Line
 
 Operates - Operator -> Production Line
 
-Samples - Ambient senspr -> Production Line
+Samples - Ambient Sensor -> Production Line
 
-Tracks - GPS Tracker -> Technician
+Tracks - Positioning Sensor -> Technician
 
 Manages- Operator -> Operator
