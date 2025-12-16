@@ -1,0 +1,11 @@
+Performs - Technician -> Production Line
+
+ExecutedFor - Workorder -> Production Line
+
+Operates - Operator -> Production Line
+
+Samples - Ambient senspr -> Production Line
+
+Tracks - GPS Tracker -> Technician
+
+Manages- Operator -> Operator
