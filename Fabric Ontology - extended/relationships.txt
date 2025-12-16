@@ -1,4 +1,4 @@
-Performs - Technician -> Production Line
+Performs - Technician -> Work Order
 
 ExecutedFor - Workorder -> Production Line
 
