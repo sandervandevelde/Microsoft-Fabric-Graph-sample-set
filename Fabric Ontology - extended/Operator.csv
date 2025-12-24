@@ -1,11 +1,12 @@
 name,id,email,line,manager
-Operator 1,OP001,operator1@example.com,line1,
+Operator 1,OP001,operator1@example.com,line1,OP011
 Operator 2,OP002,operator2@example.com,line1,OP001
 Operator 3,OP003,operator3@example.com,line2,OP001
 Operator 4,OP004,operator4@example.com,line1,OP001
 Operator 5,OP005,operator5@example.com,line2,OP001
-Operator 6,OP006,operator6@example.com,line2,
+Operator 6,OP006,operator6@example.com,line2,OP011
 Operator 7,OP007,operator7@example.com,line2,OP006
 Operator 8,OP008,operator8@example.com,line3,OP006
 Operator 9,OP009,operator9@example.com,line3,OP006
 Operator 10,OP010,operator10@example.com,line3,OP006
+Operator 11,OP011,operator11@example.com,line3,
