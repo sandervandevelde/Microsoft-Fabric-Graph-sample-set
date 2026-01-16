@@ -2,10 +2,10 @@ Performs - Technician -> Work Order
 
 ExecutedFor - Workorder -> Production Line
 
-Operates - Operator -> Production Line
+Operates - Operator <- (Schedule: N-M relationship) -> Production Line
 
 Samples - Ambient Sensor -> Production Line
 
 Tracks - Positioning Sensor -> Technician
 
-Manages- Operator -> Operator
+Manages - Operator -> Operator
