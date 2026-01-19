@@ -1,11 +1,11 @@
-Performs - Technician -> Work Order
+Performs - Technician -> Workorder
 
-ExecutedFor - Workorder -> Production Line
+ExecutedFor - Workorder -> ProductionLine
 
-Operates - Operator -> Production Line
+Operates - Operator -> ProductionLine
 
-Samples - Ambient Sensor -> Production Line
+Samples - AmbientSensor -> ProductionLine
 
-Tracks - Positioning Sensor -> Technician
+Tracks - PositioningSensor -> Technician
 
 Manages- Operator -> Operator

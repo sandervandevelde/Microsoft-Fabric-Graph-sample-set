@@ -44,13 +44,13 @@ OP009,line3,TU
 OP009,line3,WE
 OP009,line3,TH
 OP009,line3,FR
-OP010,line2,MO
-OP010,line2,TU
+OP010,line1,MO
+OP010,line1,TU
 OP010,line3,WE
 OP010,line3,TH
 OP010,line3,FR
 OP011,line3,MO
 OP011,line3,TU
 OP011,line3,WE
-OP011,line2,TH
-OP011,line2,FR
+OP011,line1,TH
+OP011,line1,FR
