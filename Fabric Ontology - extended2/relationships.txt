@@ -2,7 +2,7 @@ Performs - Technician -> Workorder
 
 ExecutedFor - Workorder -> ProductionLine
 
-Operates - Operator <- (Schedule: N-M relationship) -> ProductionLine - OperatedBy
+Operates - Operator <- (Schedule: N-M relationship) -> ProductionLine
 
 Samples - AmbientSensor -> ProductionLine
 
