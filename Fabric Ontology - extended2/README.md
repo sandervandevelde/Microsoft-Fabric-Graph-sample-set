@@ -1,5 +1,9 @@
 # Sample set for Ontology / Graph
 
+## Entities created
+
+
+
 ## Sample queries
 
 ### A list of production line IDs 
@@ -46,7 +50,7 @@ FILTER grade = "A+"
 RETURN node_Operator.name, node_Line.id
 ```
 
-Or, turn the arrow other way around:
+Or, turn the arrow other way around (and an edge property is added):
 
 ```
 MATCH (node_Line:ProductionLine)<-[edge_Operates:Operates]-(node_Operator:Operator)
@@ -75,7 +79,7 @@ ORDER BY node_Operator.name, node_Technician.name
 
 The actual relationship is: Operator -> Productionline -> Workorder -> Technician
 
-Technician 1 only worked workorders for Line 1. Operator 1 only operated Line 1. 
+Technician 4 only worked on workorders for Line 1. Operator 1 only operated Line 1. 
 
 Be careful with the min/max number of hops.
 
