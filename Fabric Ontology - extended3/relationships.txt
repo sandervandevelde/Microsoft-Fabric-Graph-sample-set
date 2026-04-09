@@ -1,0 +1,14 @@
+Performs - Technician -> Workorder
+
+ExecutedFor - Workorder -> ProductionLine
+
+Samples - AmbientSensor -> ProductionLine
+
+Tracks - PositioningSensor -> Technician
+
+Manages - Operator -> Operator
+
+WillOperate - Operator -> Schedule
+
+IsOperatedBy - ProductionLine -> Schedule
+
