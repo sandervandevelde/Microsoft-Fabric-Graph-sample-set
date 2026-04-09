@@ -1,4 +1,4 @@
-id,operatorId,lineId,dayOfWeek
+scheduleId,operatorId,lineId,dayOfWeek
 1, OP001,line1,MO
 2, OP001,line1,TU
 3, OP001,line1,WE
