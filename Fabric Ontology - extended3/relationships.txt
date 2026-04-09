@@ -8,7 +8,7 @@ Tracks - PositioningSensor -> Technician
 
 Manages - Operator -> Operator
 
-WillOperate - Operator -> Schedule
+IsScheduled - Operator -> Schedule
 
-IsOperatedBy - ProductionLine -> Schedule
+HasSchedule - ProductionLine -> Schedule
 
