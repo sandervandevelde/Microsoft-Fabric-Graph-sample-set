@@ -1,0 +1,42 @@
+0. All relationships (visual)
+-----------------------------
+
+
+1. list of production lines (visual)
+------------------------------------
+
+
+2. list of production line IDs
+------------------------------
+MATCH (node_Line:Productionline)
+RETURN node_Line.id
+LIMIT 100
+
+
+3. single production line via filter
+------------------------------------
+MATCH (node_Line:Productionline)
+WHERE node_Line.grade = "A+"
+RETURN node_Line.id
+
+
+4. combination of operator and productionline where grade equals 'A+'
+---------------------------------------------------------------------
+MATCH (node_Operator:Operator)-[edge_IsScheduled:IsScheduled]->(node_Schedule:Schedule)<-[edge_HasSchedule:HasSchedule]-(node_Line:Productionline)
+WHERE node_Line.grade = "A+"
+RETURN node_Operator.name, node_Schedule.dayOfWeek
+ORDER BY node_Operator.name, node_Schedule.dayOfWeek
+
+
+5. relationships between Operator 1 and Technicians in 4 hops
+-------------------------------------------------------------
+MATCH TRAIL (node_Technician:Technician)-[]-{1, 4}(node_Operator:Operator where node_Operator.name = "Operator 1")
+RETURN DISTINCT node_Operator.name, node_Technician.name
+ORDER BY node_Operator.name, node_Technician.name
+
+
+6. Managers self-relationship for operators
+-------------------------------------------
+MATCH (node_Operator1:Operator)-[]->{1,1}(node_Operator2:Operator)
+RETURN node_Operator1.id as Manager, "Manages" as role, node_Operator2.id as Operator 
+ORDER BY Manager, Operator 
