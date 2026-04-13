@@ -1,14 +1,14 @@
-Performs - Technician -> Workorder
+Performs (Workorder) - Technician -> Workorder
 
-ExecutedFor - Workorder -> ProductionLine
+ExecutedFor (Workorder) - Workorder -> ProductionLine
 
-Samples - AmbientSensor -> ProductionLine
+Samples (AmbientSensor) - AmbientSensor -> ProductionLine
 
-Tracks - PositioningSensor -> Technician
+Tracks (PositioningSensor) - PositioningSensor -> Technician
 
-Manages - Operator -> Operator
+Manages (Operator) - Operator -> Operator
 
-IsScheduled - Operator -> Schedule
+IsScheduled (Schedule) - Operator -> Schedule
 
-HasSchedule - ProductionLine -> Schedule
+HasSchedule (Schedule) - ProductionLine -> Schedule
 
