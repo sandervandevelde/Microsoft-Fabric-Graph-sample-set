@@ -1,3 +1,12 @@
+
+Technician
+Workorder
+ProductionLine
+AmbientSensor
+PositioningSensor
+Operator
+Schedule
+
 Performs (Workorder) - Technician -> Workorder
 
 ExecutedFor (Workorder) - Workorder -> ProductionLine
@@ -6,7 +15,7 @@ Samples (AmbientSensor) - AmbientSensor -> ProductionLine
 
 Tracks (PositioningSensor) - PositioningSensor -> Technician
 
-Manages (Operator) - Operator -> Operator
+Manages (Operator) - Operator (Manager) -> Operator (Id)
 
 IsScheduled (Schedule) - Operator -> Schedule
 
