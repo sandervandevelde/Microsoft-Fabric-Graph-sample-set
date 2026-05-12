@@ -1,5 +1,8 @@
 # Microsoft-Fabric-Graph-sample-set
+
 Sample set of tables for Graph in Microsoft Fabric 
+
+The Fabric Ontology folder gives access to a semantic model.
 
 ## Fabric Graph
 
@@ -11,3 +14,6 @@ This set of files is used in the [First look at Microsoft Fabric Graph](https://
 
 Check the folder with the same name for a set of files representing a sample factory ontology where sensors are a separate entity.
 
+## Older folders
+
+Check the 'Old' folder for previous projects.
