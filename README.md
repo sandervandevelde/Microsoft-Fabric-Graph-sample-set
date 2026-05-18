@@ -17,3 +17,9 @@ Check the folder with the same name for a set of files representing a sample fac
 ## Older folders
 
 Check the 'Old' folder for previous projects.
+
+## RDF Export
+
+Using the ontology playground, we can export the ontology as an RDF file.
+
+Check that folder for details.
