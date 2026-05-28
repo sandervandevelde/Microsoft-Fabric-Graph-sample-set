@@ -14,6 +14,8 @@ This set of files is used in the [First look at Microsoft Fabric Graph](https://
 
 Check the folder with the same name for a set of files representing a sample factory ontology where sensors are a separate entity.
 
+See also this [blog post](https://sandervandevelde.wordpress.com/2025/12/25/first-look-at-fabric-ontology/)
+
 ## Older folders
 
 Check the 'Old' folder for previous projects.
